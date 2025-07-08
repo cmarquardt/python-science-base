@@ -27,3 +27,13 @@ docker build -t python-science-base .
 
 - `latest` = latest GitHub tag
 - `X.Y` = version-specific (Python) tag
+
+### Notes
+
+For the time being, the automated upload of the README to DockerHub 
+is failing, and the build action is as well (however, new images 
+are still pushed).
+
+According to [this issue](https://github.com/peter-evans/dockerhub-description/issues/319) 
+for the respective plugin for GitHub actions, this might be related
+to a change or issue in the DockerHub API.
